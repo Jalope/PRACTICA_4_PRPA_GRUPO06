@@ -1,0 +1,5 @@
+Estudiar la frecuencia de los viajes por tipo de usuario (ocasional, empresa, habitual) por tramos de una hora (usando el campo travel_time)
+Haremos un histograma para cada tipo de usario para ver cómo se distribuyen los viajes
+¿Tiempo total de uso medio por usuario? suma(i:(0<i=<n and user_type(j)):total_travel_time(i))/n
+
+Análisis por meses.
