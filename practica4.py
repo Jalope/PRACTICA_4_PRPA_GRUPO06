@@ -58,8 +58,8 @@ def plot_pie(n0, n1, n2, n3):
     #Relación de la cantidad de viajes por tipo de usuario
     plt.pie([n0-(n1+n2+n3),n1,n2,n3], labels=['Sin determinar','Habitual','Ocasional','Empresa'], autopct='%1.1f%%',)
 
-def main(json): 
-    rdd_base = text_File(json)
+def main(): 
+    rdd_base = text_File('sampleoct.json,samplejun.json')
     
     rdd, n0 = total_travel(rdd_base)
     
@@ -92,5 +92,5 @@ def main(json):
     #rdd_user2junmean.sortByKey()
 
 if __name__ == '__main__':
-    json = input("Introduce el nombre del archivo json con el que quieres trabajar. \n Ten en cuenta que si el archivo es demasiado grande y no se utiliza un cluster es probable que se produzca un error.\n NOMBRE DEL ARCHIVO: ")
-    main(json)
+
+    main()
