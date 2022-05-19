@@ -1,4 +1,4 @@
-#https://gist.github.com/rjurney/5e926262041dc1475f0dd8b2743d6ad5
+#Credit to: Russell Jurney @rjurney https://gist.github.com/rjurney/5e926262041dc1475f0dd8b2743d6ad5
 import sys, os, re
 import json
 import numpy as np
